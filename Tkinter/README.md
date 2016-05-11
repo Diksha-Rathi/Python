@@ -1,6 +1,6 @@
 # Tkinter
 
-* Python version- Python 2.7.6
+Python version- Python 2.7.6
 
 * To install Tkinter:
 ```sh
