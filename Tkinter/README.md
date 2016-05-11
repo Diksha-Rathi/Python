@@ -11,3 +11,5 @@ sudo apt-get install python-tk
 ```sh
 python <filename>
 ```
+
+The programs (from prog1- prog13) are based on [thenewboston](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBwibXFtPtflztSNPGuIB_d) tutorial. 
