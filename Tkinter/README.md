@@ -1,11 +1,13 @@
 # Tkinter
 
-Python version- Python 2.7.6
+* Python version- Python 2.7.6
 
-To install Tkinter:
+* To install Tkinter:
+```sh
+sudo apt-get install python-tk
+```
 
-'''sudo apt-get install python-tk'''
-
-To execute the file from terminal in Ubuntu 14.04:
-
-'''python <filename>'''
+* To execute the file from terminal in Ubuntu 14.04:
+```sh
+python <filename>
+```
