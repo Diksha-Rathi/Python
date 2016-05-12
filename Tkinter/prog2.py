@@ -2,8 +2,11 @@ from Tkinter import *
 
 root = Tk()
 
-topFrame = Frame(root)
+topFrame = Frame(root, width= 300, height=250)
 topFrame.pack()
+#Argument 1- window where you want to place the frame
+#Argument 2- specifies width of the frame in pixels
+#Argument 3- specifies height of the frame in pixels
 
 bottomFrame = Frame(root)
 bottomFrame.pack(side= BOTTOM)
@@ -14,7 +17,7 @@ button2 = Button(topFrame, text="Second Button on Top Frame", fg="blue")
 button3 = Button(topFrame, text="Third Button on Top Frame", fg="red")
 button4 = Button(bottomFrame, text="First Button on Bottom Frame", fg="purple")
 button5 = Button(bottomFrame, text="Second Button on Bottom Frame", fg="green")
-#Argument 1- where you want to place the frame
+#Argument 1- where you want to place the button
 #Argument 2- text that you want the button to display
 #Argument 3- foreground color: set the color of the text displayed(optional)
 #Argument 4- set the background color(optional)
